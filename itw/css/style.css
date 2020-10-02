@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url(../pictures/background2.jpg);
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background: #333;
+    color:white;
+	border-bottom:2px solid red;
+}
+.logo{
+	width:60px;
+	float:left;
+}
+.menu{
+	float:right;
+}
+.menu li{
+	float:left;
+	width:120px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	list-style:none;
+}
+.menu li a{
+	color:#fff;
+	text-decoration:none;
+	font-family:calibri;
+	text-transform:uppercase;
+	display:block;
+}
+.menu li:hover{
+	background: #dc3545;
+}
+.menu li a:hover{
+	color:#000;
+}
+.myDiv {
+  border: 5px outset red;
+  background-color: #fff;    
+  text-align: center;
+  height:400px;  
+}
+.horizon{
+	width:100%;
+	height:400px;
+}
+
+
+.rightdiv{
+  border: 3px outset red;
+  background-color: #fff;    
+  text-align: center;
+  height:300px; 
+  width:220px;
+  float:left;
+  margin:20px;
+  
+}
+.thermal{
+  width:220px;
+  height:150px;
+}
+
+.seconddiv{
+  border: 3px outset red;
+  background-color: #fff;    
+  text-align: center;
+  height:300px; 
+  width:220px;
+  float:left;
+  margin:20px; 
+}
+.tidal{
+  width:220px;
+  height:150px;
+}
+.thirddiv{
+  border: 3px outset red;
+  background-color: #fff;    
+  text-align: center;
+  height:300px; 
+  width:220px;
+  float:left;
+  margin:20px;
+}
+.wind{
+  width:220px;
+  height:150px;
+}
+
+.forthdiv{
+  border: 3px outset red;
+  background-color: #fff;    
+  text-align: center;
+  height:300px; 
+  width:220px;
+  float:left;
+  margin:20px;
+}
+.hydro{
+  width:220px;
+  height:150px;
+}
+.leftdiv{
+  border: 3px outset red;
+  background-color: #fff;    
+  text-align: center;
+  height:300px; 
+  width:220px; 
+  float:left;
+  margin:20px;
+  
+}
+.solar{
+  width:220px;
+  height:150px;
+}
+.footer {
+  border: 5px outset black;
+  background-color: black;    
+  text-align: center;
+  height:50px; 
+  width: 100%;
+  float: left;
+  color: #fff; 
+}
